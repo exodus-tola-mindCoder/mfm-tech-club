@@ -32,9 +32,8 @@ export default function About() {
             About Our Club
           </h2>
           <p className="text-xl text-bw-muted max-w-3xl mx-auto">
-            MFM Tech Club is a vibrant community of students passionate about technology,
-            innovation, and continuous learning. We're dedicated to fostering technical excellence
-            and creative problem-solving.
+            MFM Tech Club is a vibrant university community where students explore modern tech,
+            collaborate on projects, and prepare for careers through workshops, mentorship, and events.
           </p>
         </div>
 

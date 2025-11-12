@@ -19,27 +19,27 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li><a href="#about" className="text-bw-muted hover:text-bw-white transition-colors">About Us</a></li>
-              <li><a href="#events" className="text-bw-muted hover:text-bw-white transition-colors">Events</a></li>
-              <li><a href="#team" className="text-bw-muted hover:text-bw-white transition-colors">Our Team</a></li>
-              <li><a href="#contact" className="text-bw-muted hover:text-bw-white transition-colors">Contact</a></li>
+              <li><a href="#about" className="text-bw-muted hover:text-accent-emerald transition-colors">About Us</a></li>
+              <li><a href="#events" className="text-bw-muted hover:text-accent-emerald transition-colors">Events</a></li>
+              <li><a href="#team" className="text-bw-muted hover:text-accent-emerald transition-colors">Our Team</a></li>
+              <li><a href="#contact" className="text-bw-muted hover:text-accent-emerald transition-colors">Contact</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-lg font-bold mb-4">Connect</h4>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-bw-black/50 hover:bg-bw-white/10 rounded-lg flex items-center justify-center transition-colors">
-                <Github className="w-5 h-5" />
+              <a href="#" className="w-10 h-10 bg-bw-black/50 hover:bg-accent-emerald/20 rounded-lg flex items-center justify-center transition-colors">
+                <Github className="w-5 h-5 text-bw-white" />
               </a>
-              <a href="#" className="w-10 h-10 bg-bw-black/50 hover:bg-bw-white/10 rounded-lg flex items-center justify-center transition-colors">
-                <Twitter className="w-5 h-5" />
+              <a href="#" className="w-10 h-10 bg-bw-black/50 hover:bg-accent-emerald/20 rounded-lg flex items-center justify-center transition-colors">
+                <Twitter className="w-5 h-5 text-bw-white" />
               </a>
-              <a href="#" className="w-10 h-10 bg-bw-black/50 hover:bg-bw-white/10 rounded-lg flex items-center justify-center transition-colors">
-                <Linkedin className="w-5 h-5" />
+              <a href="#" className="w-10 h-10 bg-bw-black/50 hover:bg-accent-emerald/20 rounded-lg flex items-center justify-center transition-colors">
+                <Linkedin className="w-5 h-5 text-bw-white" />
               </a>
-              <a href="#" className="w-10 h-10 bg-bw-black/50 hover:bg-bw-white/10 rounded-lg flex items-center justify-center transition-colors">
-                <Instagram className="w-5 h-5" />
+              <a href="#" className="w-10 h-10 bg-bw-black/50 hover:bg-accent-emerald/20 rounded-lg flex items-center justify-center transition-colors">
+                <Instagram className="w-5 h-5 text-bw-white" />
               </a>
             </div>
           </div>

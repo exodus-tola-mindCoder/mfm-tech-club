@@ -43,7 +43,7 @@ export default function Team() {
             Meet Our Team
           </h2>
           <p className="text-xl text-bw-muted max-w-2xl mx-auto">
-            Dedicated leaders working to make MFM Tech Club an amazing community
+            Dedicated student leaders working to make MFM Tech Club an amazing community — reach out to get involved.
           </p>
         </div>
 
@@ -63,7 +63,7 @@ export default function Team() {
 
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-bw-white">
                   <h3 className="text-2xl font-bold mb-1">{member.name}</h3>
-                  <p className="text-bw-black font-semibold mb-2">{member.role}</p>
+                  <p className="text-bw-gray font-semibold mb-4">{member.role}</p>
                   <p className="text-bw-gray text-sm">{member.description}</p>
 
                   <div className="flex space-x-3 mt-4 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -87,7 +87,7 @@ export default function Team() {
           <p className="text-xl text-bw-muted mb-6">
             Want to join our leadership team?
           </p>
-          <button className="px-8 py-4 bg-bw-black hover:bg-bw-muted text-bw-white font-semibold rounded-lg transition-all transform hover:scale-105 shadow-lg">
+          <button className="px-8 py-4 bg-accent-emerald hover:bg-bw-muted text-bw-black font-semibold rounded-lg transition-all transform hover:scale-105 shadow-lg">
             Get Involved
           </button>
         </div>

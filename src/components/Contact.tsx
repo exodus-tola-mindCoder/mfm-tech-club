@@ -55,11 +55,11 @@ export default function Contact() {
                   <h3 className="text-xl font-bold text-bw-black mb-2">Join Our Community</h3>
                   <p className="text-bw-muted">Follow us on social media for updates and announcements</p>
                   <div className="flex space-x-3 mt-4">
-                    <a href="#" className="text-bw-black hover:text-bw-muted transition-colors font-semibold">Discord</a>
+                    <a href="#" className="text-accent-emerald hover:text-bw-black transition-colors font-semibold">Discord</a>
                     <span className="text-bw-gray">•</span>
-                    <a href="#" className="text-bw-black hover:text-bw-muted transition-colors font-semibold">Twitter</a>
+                    <a href="#" className="text-accent-emerald hover:text-bw-black transition-colors font-semibold">Twitter</a>
                     <span className="text-bw-gray">•</span>
-                    <a href="#" className="text-bw-black hover:text-bw-muted transition-colors font-semibold">Instagram</a>
+                    <a href="#" className="text-accent-emerald hover:text-bw-black transition-colors font-semibold">Instagram</a>
                   </div>
                 </div>
               </div>
@@ -67,7 +67,7 @@ export default function Contact() {
 
             <div className="bg-bw-black rounded-2xl p-8 text-white">
               <h3 className="text-2xl font-bold mb-4">Meeting Times</h3>
-              <p className="text-bw-gray mb-4">Join us for our regular club meetings:</p>
+              <p className="text-accent-emerald mb-4">Join us for our regular club meetings:</p>
               <ul className="space-y-2 text-bw-gray">
                 <li>• General Meetings: Every Monday at 5:00 PM</li>
                 <li>• Coding Sessions: Fridays at 4:00 PM</li>
@@ -128,7 +128,7 @@ export default function Contact() {
 
               <button
                 type="submit"
-                className="w-full py-4 bg-bw-black hover:bg-bw-muted text-bw-white font-semibold rounded-lg transition-all transform hover:scale-105 shadow-lg flex items-center justify-center space-x-2"
+                className="w-full py-4 bg-accent-emerald hover:bg-bw-muted text-bw-black font-semibold rounded-lg transition-all transform hover:scale-105 shadow-lg flex items-center justify-center space-x-2"
               >
                 <span>Send Message</span>
                 <Send className="w-5 h-5" />

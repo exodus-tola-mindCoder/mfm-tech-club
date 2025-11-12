@@ -52,24 +52,28 @@ export default function Hero() {
             <Code2 className="w-20 h-20 text-bw-white mx-auto" />
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold text-bw-white mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold text-bw-white mb-4 leading-tight">
             Welcome to <span className="text-bw-white">MFM Tech Club</span>
           </h1>
 
+          <p className="inline-block text-sm font-medium px-3 py-1 rounded-full bg-bw-white/10 text-bw-white mb-6">
+            Open to all university students
+          </p>
+
           <p className="text-xl md:text-2xl text-bw-gray mb-12 leading-relaxed">
-            Where innovation meets collaboration. Join us in exploring the frontiers of technology, building amazing projects, and growing together as developers.
+            Join weekly coding sessions, workshops, and hackathons — learn, build, and grow with fellow students.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
               onClick={() => scrollToSection('about')}
-              className="px-8 py-4 bg-bw-white text-bw-black font-semibold rounded-lg transition-all transform hover:scale-105 shadow-lg"
+              className="px-8 py-4 bg-accent-emerald text-bw-black font-semibold rounded-lg transition-all transform hover:scale-105 shadow-lg"
             >
               Learn More
             </button>
             <button
               onClick={() => scrollToSection('contact')}
-              className="px-8 py-4 bg-transparent border-2 border-bw-white hover:bg-bw-white hover:text-bw-black text-bw-white font-semibold rounded-lg transition-all transform hover:scale-105"
+              className="px-8 py-4 bg-transparent border-2 border-bw-white hover:border-accent-emerald hover:bg-accent-emerald hover:text-bw-black text-bw-white font-semibold rounded-lg transition-all transform hover:scale-105"
             >
               Join Us
             </button>

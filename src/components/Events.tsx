@@ -8,7 +8,7 @@ export default function Events() {
       time: '4:00 PM - 6:00 PM',
       location: 'Computer Lab A',
       description: 'Join us for collaborative coding sessions where we work on projects and help each other grow.',
-      color: 'from-bw-black to-bw-gray'
+      color: 'from-accent-emerald to-bw-black'
     },
     {
       title: 'Tech Talk Series',
@@ -16,7 +16,7 @@ export default function Events() {
       time: '6:00 PM - 7:30 PM',
       location: 'Main Auditorium',
       description: 'Industry experts and alumni share insights on latest technologies and career paths.',
-      color: 'from-bw-black to-bw-gray'
+      color: 'from-accent-emerald to-bw-black'
     },
     {
       title: 'Hackathon 2024',
@@ -24,7 +24,7 @@ export default function Events() {
       time: '24 Hours',
       location: 'Innovation Center',
       description: 'Our annual hackathon where teams compete to build innovative solutions to real-world problems.',
-      color: 'from-bw-black to-bw-gray'
+      color: 'from-accent-emerald to-bw-black'
     }
   ];
 
@@ -55,15 +55,15 @@ export default function Events() {
 
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center text-bw-muted">
-                    <Calendar className="w-5 h-5 mr-3 text-bw-black" />
+                    <Calendar className="w-5 h-5 mr-3 text-accent-emerald" />
                     <span>{event.date}</span>
                   </div>
                   <div className="flex items-center text-bw-muted">
-                    <Clock className="w-5 h-5 mr-3 text-bw-black" />
+                    <Clock className="w-5 h-5 mr-3 text-accent-emerald" />
                     <span>{event.time}</span>
                   </div>
                   <div className="flex items-center text-bw-muted">
-                    <MapPin className="w-5 h-5 mr-3 text-bw-black" />
+                    <MapPin className="w-5 h-5 mr-3 text-accent-emerald" />
                     <span>{event.location}</span>
                   </div>
                 </div>

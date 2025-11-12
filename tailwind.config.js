@@ -16,7 +16,9 @@ export default {
         'bw-black': '#0F172A',
         'bw-white': '#FFFFFF',
         'bw-gray': '#E5E7EB',
-        'bw-muted': '#9CA3AF'
+        'bw-muted': '#9CA3AF',
+        /* Accent for student/CTA use */
+        'accent-emerald': '#10B981'
       }
     },
   },
