@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+	--bw-black: #0F172A;
+	--bw-white: #FFFFFF;
+	--bw-gray:  #E5E7EB;
+	--bw-muted: #9CA3AF;
+}
+
+@layer base {
+	html, body, #root { height: 100%; }
+
+	body {
+		background-color: var(--bw-black);
+		color: var(--bw-white);
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	::selection{
+		background: var(--bw-white);
+		color: var(--bw-black);
+	}
+}

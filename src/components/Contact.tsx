@@ -23,52 +23,52 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-24 px-6 bg-slate-50">
+    <section id="contact" className="py-24 px-6 bg-bw-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-bw-black mb-4">
             Get In Touch
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl text-bw-muted max-w-2xl mx-auto">
             Have questions or want to join our community? We'd love to hear from you!
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           <div>
-            <div className="bg-white rounded-2xl p-8 shadow-lg mb-8">
+            <div className="bg-bw-white rounded-2xl p-8 shadow-lg mb-8 border border-bw-gray">
               <div className="flex items-start space-x-4 mb-6">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Mail className="w-6 h-6 text-blue-600" />
+                <div className="w-12 h-12 bg-bw-black/5 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Mail className="w-6 h-6 text-bw-black" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-2">Email Us</h3>
-                  <p className="text-gray-600">contact@mfmtechclub.edu</p>
+                  <h3 className="text-xl font-bold text-bw-black mb-2">Email Us</h3>
+                  <p className="text-bw-muted">contact@mfmtechclub.edu</p>
                 </div>
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <MessageSquare className="w-6 h-6 text-blue-600" />
+                <div className="w-12 h-12 bg-bw-black/5 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <MessageSquare className="w-6 h-6 text-bw-black" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-2">Join Our Community</h3>
-                  <p className="text-gray-600">Follow us on social media for updates and announcements</p>
+                  <h3 className="text-xl font-bold text-bw-black mb-2">Join Our Community</h3>
+                  <p className="text-bw-muted">Follow us on social media for updates and announcements</p>
                   <div className="flex space-x-3 mt-4">
-                    <a href="#" className="text-blue-600 hover:text-blue-700 transition-colors font-semibold">Discord</a>
-                    <span className="text-gray-300">•</span>
-                    <a href="#" className="text-blue-600 hover:text-blue-700 transition-colors font-semibold">Twitter</a>
-                    <span className="text-gray-300">•</span>
-                    <a href="#" className="text-blue-600 hover:text-blue-700 transition-colors font-semibold">Instagram</a>
+                    <a href="#" className="text-bw-black hover:text-bw-muted transition-colors font-semibold">Discord</a>
+                    <span className="text-bw-gray">•</span>
+                    <a href="#" className="text-bw-black hover:text-bw-muted transition-colors font-semibold">Twitter</a>
+                    <span className="text-bw-gray">•</span>
+                    <a href="#" className="text-bw-black hover:text-bw-muted transition-colors font-semibold">Instagram</a>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl p-8 text-white">
+            <div className="bg-bw-black rounded-2xl p-8 text-white">
               <h3 className="text-2xl font-bold mb-4">Meeting Times</h3>
-              <p className="text-blue-100 mb-4">Join us for our regular club meetings:</p>
-              <ul className="space-y-2 text-blue-100">
+              <p className="text-bw-gray mb-4">Join us for our regular club meetings:</p>
+              <ul className="space-y-2 text-bw-gray">
                 <li>• General Meetings: Every Monday at 5:00 PM</li>
                 <li>• Coding Sessions: Fridays at 4:00 PM</li>
                 <li>• Workshop Series: First Saturday of each month</li>
@@ -76,10 +76,10 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl p-8 shadow-lg">
+          <div className="bg-bw-white rounded-2xl p-8 shadow-lg border border-bw-gray">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-semibold text-slate-900 mb-2">
+                <label htmlFor="name" className="block text-sm font-semibold text-bw-black mb-2">
                   Your Name
                 </label>
                 <input
@@ -89,13 +89,13 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all"
+                  className="w-full px-4 py-3 bg-bw-gray border border-bw-gray rounded-lg focus:outline-none focus:ring-2 focus:ring-bw-black focus:border-transparent transition-all"
                   placeholder="John Doe"
                 />
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-sm font-semibold text-slate-900 mb-2">
+                <label htmlFor="email" className="block text-sm font-semibold text-bw-black mb-2">
                   Email Address
                 </label>
                 <input
@@ -105,13 +105,13 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all"
+                  className="w-full px-4 py-3 bg-bw-gray border border-bw-gray rounded-lg focus:outline-none focus:ring-2 focus:ring-bw-black focus:border-transparent transition-all"
                   placeholder="john@example.com"
                 />
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-sm font-semibold text-slate-900 mb-2">
+                <label htmlFor="message" className="block text-sm font-semibold text-bw-black mb-2">
                   Message
                 </label>
                 <textarea
@@ -121,14 +121,14 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   rows={6}
-                  className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all resize-none"
+                  className="w-full px-4 py-3 bg-bw-gray border border-bw-gray rounded-lg focus:outline-none focus:ring-2 focus:ring-bw-black focus:border-transparent transition-all resize-none"
                   placeholder="Tell us about yourself and why you want to join..."
                 />
               </div>
 
               <button
                 type="submit"
-                className="w-full py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all transform hover:scale-105 shadow-lg flex items-center justify-center space-x-2"
+                className="w-full py-4 bg-bw-black hover:bg-bw-muted text-bw-white font-semibold rounded-lg transition-all transform hover:scale-105 shadow-lg flex items-center justify-center space-x-2"
               >
                 <span>Send Message</span>
                 <Send className="w-5 h-5" />
